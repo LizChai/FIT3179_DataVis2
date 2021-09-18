@@ -1,0 +1,168 @@
+﻿idx,Country,Continent,Discipline,Year,Count
+0,AUS,Australia,Lead,2015,1
+1,AUT,Europe,Lead,2015,13
+2,BEL,Europe,Lead,2015,10
+3,CAN,North America,Lead,2015,4
+4,CHI,South America,Lead,2015,1
+5,CHN,Asia,Lead,2015,7
+6,CZE,Europe,Lead,2015,5
+7,DEN,Europe,Lead,2015,1
+8,ESP,Europe,Lead,2015,2
+9,FRA,Europe,Lead,2015,19
+10,GBR,Europe,Lead,2015,5
+11,GER,Europe,Lead,2015,9
+12,HKG,Asia,Lead,2015,1
+13,ISR,Asia,Lead,2015,3
+14,ITA,Europe,Lead,2015,7
+15,JPN,Asia,Lead,2015,18
+16,KOR,Asia,Lead,2015,3
+17,NED,Europe,Lead,2015,2
+18,NOR,Europe,Lead,2015,14
+19,POL,Europe,Lead,2015,1
+20,RUS,Europe,Lead,2015,6
+21,SLO,Europe,Lead,2015,12
+22,SUI,Europe,Lead,2015,9
+23,SVK,Europe,Lead,2015,1
+24,SWE,Europe,Lead,2015,7
+25,UKR,Europe,Lead,2015,2
+26,USA,North America,Lead,2015,2
+27,ARG,South America,Lead,2016,1
+28,AUS,Australia,Lead,2016,3
+29,AUT,Europe,Lead,2016,11
+30,BEL,Europe,Lead,2016,8
+31,CAN,North America,Lead,2016,7
+32,CHI,South America,Lead,2016,1
+33,CHN,Asia,Lead,2016,5
+34,CZE,Europe,Lead,2016,3
+35,ESP,Europe,Lead,2016,4
+36,FRA,Europe,Lead,2016,20
+37,GBR,Europe,Lead,2016,14
+38,GER,Europe,Lead,2016,12
+39,ISR,Asia,Lead,2016,3
+40,ITA,Europe,Lead,2016,11
+41,JPN,Asia,Lead,2016,20
+42,KOR,Asia,Lead,2016,9
+43,NED,Europe,Lead,2016,1
+44,NOR,Europe,Lead,2016,2
+45,POL,Europe,Lead,2016,3
+46,RUS,Europe,Lead,2016,17
+47,SLO,Europe,Lead,2016,15
+48,SRB,Europe,Lead,2016,1
+49,SUI,Europe,Lead,2016,8
+50,SWE,Europe,Lead,2016,3
+51,TPE,Asia,Lead,2016,2
+52,UKR,Europe,Lead,2016,3
+53,USA,North America,Lead,2016,16
+54,ARG,South America,Lead,2017,1
+55,AUS,Australia,Lead,2017,2
+56,AUT,Europe,Lead,2017,12
+57,BEL,Europe,Lead,2017,8
+58,CAN,North America,Lead,2017,6
+59,CHN,Asia,Lead,2017,4
+60,CZE,Europe,Lead,2017,6
+61,ESP,Europe,Lead,2017,4
+62,FRA,Europe,Lead,2017,20
+63,GBR,Europe,Lead,2017,6
+64,GER,Europe,Lead,2017,9
+65,HKG,Asia,Lead,2017,2
+66,INA,Asia,Lead,2017,10
+67,ISR,Asia,Lead,2017,1
+68,ITA,Europe,Lead,2017,11
+69,JPN,Asia,Lead,2017,23
+70,KOR,Asia,Lead,2017,5
+71,NED,Europe,Lead,2017,4
+72,NOR,Europe,Lead,2017,1
+73,POL,Europe,Lead,2017,6
+74,RUS,Europe,Lead,2017,8
+75,SLO,Europe,Lead,2017,16
+76,SRB,Europe,Lead,2017,1
+77,SUI,Europe,Lead,2017,7
+78,SVK,Europe,Lead,2017,1
+79,SWE,Europe,Lead,2017,1
+80,TPE,Asia,Lead,2017,1
+81,UKR,Europe,Lead,2017,2
+82,USA,North America,Lead,2017,10
+83,ARG,South America,Lead,2018,1
+84,AUS,Australia,Lead,2018,4
+85,AUT,Europe,Lead,2018,11
+86,BEL,Europe,Lead,2018,6
+87,CAN,North America,Lead,2018,4
+88,CHN,Asia,Lead,2018,4
+89,CZE,Europe,Lead,2018,5
+90,ECU,South America,Lead,2018,1
+91,ESP,Europe,Lead,2018,2
+92,FRA,Europe,Lead,2018,16
+93,GBR,Europe,Lead,2018,7
+94,GER,Europe,Lead,2018,8
+95,HKG,Asia,Lead,2018,1
+96,IRI,Asia,Lead,2018,1
+97,ISR,Asia,Lead,2018,3
+98,ITA,Europe,Lead,2018,6
+99,JPN,Asia,Lead,2018,26
+100,KOR,Asia,Lead,2018,5
+101,NED,Europe,Lead,2018,3
+102,NOR,Europe,Lead,2018,1
+103,RUS,Europe,Lead,2018,6
+104,SLO,Europe,Lead,2018,13
+105,SUI,Europe,Lead,2018,8
+106,SVK,Europe,Lead,2018,1
+107,SWE,Europe,Lead,2018,2
+108,TPE,Asia,Lead,2018,1
+109,UKR,Europe,Lead,2018,3
+110,USA,North America,Lead,2018,11
+111,ARG,South America,Lead,2019,1
+112,AUS,Australia,Lead,2019,4
+113,AUT,Europe,Lead,2019,11
+114,BEL,Europe,Lead,2019,6
+115,CAN,North America,Lead,2019,4
+116,CHN,Asia,Lead,2019,4
+117,CZE,Europe,Lead,2019,5
+118,ECU,South America,Lead,2019,1
+119,ESP,Europe,Lead,2019,2
+120,FRA,Europe,Lead,2019,16
+121,GBR,Europe,Lead,2019,7
+122,GER,Europe,Lead,2019,8
+123,HKG,Asia,Lead,2019,1
+124,IRI,Asia,Lead,2019,1
+125,ISR,Asia,Lead,2019,3
+126,ITA,Europe,Lead,2019,6
+127,JPN,Asia,Lead,2019,26
+128,KOR,Asia,Lead,2019,5
+129,NED,Europe,Lead,2019,3
+130,NOR,Europe,Lead,2019,1
+131,RUS,Europe,Lead,2019,6
+132,SLO,Europe,Lead,2019,13
+133,SUI,Europe,Lead,2019,8
+134,SVK,Europe,Lead,2019,1
+135,SWE,Europe,Lead,2019,2
+136,TPE,Asia,Lead,2019,1
+137,UKR,Europe,Lead,2019,3
+138,USA,North America,Lead,2019,11
+139,ARG,South America,Lead,2021,1
+140,AUS,Australia,Lead,2021,1
+141,AUT,Europe,Lead,2021,12
+142,BEL,Europe,Lead,2021,6
+143,BUL,Europe,Lead,2021,1
+144,CAN,North America,Lead,2021,2
+145,CHI,South America,Lead,2021,1
+146,CZE,Europe,Lead,2021,4
+147,ESP,Europe,Lead,2021,2
+148,FIN,Europe,Lead,2021,1
+149,FRA,Europe,Lead,2021,18
+150,GBR,Europe,Lead,2021,5
+151,GER,Europe,Lead,2021,13
+152,HUN,Europe,Lead,2021,1
+153,ISR,Asia,Lead,2021,4
+154,ITA,Europe,Lead,2021,10
+155,JPN,Asia,Lead,2021,19
+156,KAZ,Asia,Lead,2021,1
+157,KOR,Asia,Lead,2021,2
+158,NED,Europe,Lead,2021,4
+159,NOR,Europe,Lead,2021,2
+160,RUS,Europe,Lead,2021,7
+161,SLO,Europe,Lead,2021,17
+162,SUI,Europe,Lead,2021,7
+163,SVK,Europe,Lead,2021,1
+164,SWE,Europe,Lead,2021,1
+165,UKR,Europe,Lead,2021,1
+166,USA,North America,Lead,2021,14

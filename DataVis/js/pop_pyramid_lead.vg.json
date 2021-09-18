@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A population pyramid for the US in 2000.",
+    "data": { "url": "../data/athlete_points_lead.csv"},
+    "transform": [
+        {"calculate": "datum.Sex == 2 ? 'Female' : 'Male'", "as": "Gender"}
+    ],
+    "spacing": 0,
+    "hconcat": [{
+      "transform": [{
+        "filter": {"field": "Gender", "equal": "Female"}
+      }],
+      "title": "Female",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Name"
+        },
+        "x": {
+          "aggregate": "sum", "field": "Points",
+          "title": "Points",
+          "axis": {"format": "s"},
+          "sort": "descending"
+        },
+        "color": {
+          "field": "Gender",
+          "scale": {"range": ["#675193", "#ca8861"]},
+          "legend": null
+        }
+      }
+    }, {
+      "width": 20,
+      "view": {"stroke": null},
+      "mark": {
+        "type": "text",
+        "align": "center"
+      }
+    }, {
+      "transform": [{
+        "filter": {"field": "Gender", "equal": "Male"}
+      }],
+      "title": "Male",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Name", "title": null
+        },
+        "x": {
+          "aggregate": "sum", "field": "Points",
+          "title": "Points",
+          "axis": {"format": "s"}
+        },
+        "color": {
+          "field": "Gender",
+          "legend": null
+        }
+      }
+    }],
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false}
+    }
+  }
+  

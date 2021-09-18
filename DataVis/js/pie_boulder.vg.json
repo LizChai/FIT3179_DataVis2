@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Pie chart",
+    "width":"container",
+    "data": { "url": "../data/pie_lead.csv" },
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "Number"},
+      "color": {"field": "Gender", "type": "nominal"}
+    }
+  }
+  

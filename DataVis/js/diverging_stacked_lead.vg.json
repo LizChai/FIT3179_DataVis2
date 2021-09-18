@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A population pyramid for the US in 2000, created using stack. See https://vega.github.io/vega-lite/examples/concat_population_pyramid.html for a variant of this created using concat.",
+    "width":"container",
+    "data": { "url": "../data/athlete_points_lead.csv"},
+    "transform": [
+      {"calculate": "datum.Sex == 2 ? 'Female' : 'Male'", "as": "Gender"},
+      {"calculate": "datum.Sex == 2 ? -datum.Points : datum.Points", "as": "signed_Points"}
+    ],
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "Points",
+        "axis": null, "sort": "descending"
+      },
+      "x": {
+        "aggregate": "sum", "field": "signed_Points",
+        "title": "Rankings",
+        "axis": {"format": "s"}
+      },
+      "color": {
+        "field": "Gender",
+        "scale": {"range": ["#675193", "#ca8861"]},
+        "legend": {"orient": "top", "title": null}
+      }
+    },
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false}
+    }
+  }
+  

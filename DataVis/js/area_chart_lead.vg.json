@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Total Number of Athletes for Lead Discipline",
+  "width":"container",
+  "data": {"url": "../data/athletes_country_lead.csv"},
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year", "field": "Year",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+      "aggregate": "sum", "field": "Count"
+    },
+    "color": {
+      "field": "Continent",
+      "scale": {"scheme": "category20b"}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Gender Split for Lead Discipline",
+    "description": "Pie chart",
+    "width":"container",
+    "data": { "url": "../data/pie_boulder.csv" },
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "Number"},
+      "color": {"field": "Gender", "type": "nominal"}
+    }
+  }
+  

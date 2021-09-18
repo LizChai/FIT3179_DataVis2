@@ -1,0 +1,19 @@
+﻿idx,Location,Country,Continent,Discipline,Latitude,Longitude,Count
+0,Arco,ITA,Europe,Speed,45.9181327,10.8860953,3
+1,Central Saanich,CAN,Europe,Speed,48.5946782,-123.4207265,1
+2,Chamonix,FRA,Europe,Speed,45.92546,6.86981,4
+3,Chongqing,CHN,Asia,Speed,29.5647398,106.5478767,5
+4,Edinburgh,GBR,Europe,Speed,55.9533456,-3.1883749,1
+5,Hachioji,JPN,Asia,Speed,35.660175,139.283071,1
+6,Haiyang,CHN,Asia,Speed,36.6883484,121.1686893,1
+7,Innsbruck,AUT,Europe,Speed,47.26269,11.3947,1
+8,Jakarta,INA,Asia,Speed,-6.1753942,106.827183,1
+9,Moscow,RUS,Europe,Speed,55.7504461,37.6174943,3
+10,Nanjing,CHN,Asia,Speed,32.0609736,118.7916458,2
+11,Paris,FRA,Europe,Speed,48.8566969,2.3514616,1
+12,Salt Lake City,USA,North America,Speed,40.75848,-111.888138,1
+13,Seoul,KOR,Asia,Speed,37.5666791,126.9782914,1
+14,Tai'an,CHN,Asia,Speed,36.2002968,117.0809316,1
+15,Villars,SUI,Europe,Speed,45.46843,4.35361,5
+16,Wujiang,CHN,Asia,Speed,24.7970206,113.5830968,6
+17,Xiamen,CHN,Asia,Speed,24.4801069,118.0853479,5

@@ -1,0 +1,17 @@
+idx,Location,Country,Continent,Discipline,Latitude,Longitude,Count
+0,Arco,ITA,Europe,Lead,45.9181327,10.8860953,3
+1,Briancon,FRA,Europe,Lead,44.8984037,6.6436313,7
+2,Chamonix,FRA,Europe,Lead,45.92546,6.86981,6
+3,Edinburgh,GBR,Europe,Lead,55.9533456,-3.1883749,1
+4,Hachioji,JPN,Asia,Lead,35.660175,139.283071,1
+5,Imst,AUT,Europe,Lead,47.2381536,10.7406982,2
+6,Innsbruck,AUT,Europe,Lead,47.26269,11.3947,2
+7,Inzai,JPN,Asia,Lead,35.8322582,140.1452981,1
+8,Kranj,SLO,Europe,Lead,46.2432635,14.3549501,6
+9,Moscow,RUS,Europe,Lead,55.7504461,37.6174943,1
+10,Paris,FRA,Europe,Lead,48.8566969,2.3514616,1
+11,Puurs,BEL,Europe,Lead,51.07199845,4.286192868,1
+12,Stavanger,NOR,Europe,Lead,59.1020129,5.712611357,1
+13,Villars,SUI,Europe,Lead,45.46843,4.35361,5
+14,Wujiang,CHN,Asia,Lead,24.7970206,113.5830968,3
+15,Xiamen,CHN,Asia,Lead,24.4801069,118.0853479,5

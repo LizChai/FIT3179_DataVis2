@@ -1,0 +1,18 @@
+﻿idx,Location,Country,Continent,Discipline,Latitude,Longitude,Count
+0,Chongqing,CHN,Asia,Boulder,29.5647398,106.5478767,5
+1,Hachioji,JPN,Asia,Boulder,35.660175,139.283071,3
+2,Haiyang,CHN,Asia,Boulder,36.6883484,121.1686893,1
+3,Innsbruck,AUT,Europe,Boulder,47.26269,11.3947,3
+4,Kazo,JPN,Asia,Boulder,36.1308572,139.603225,1
+5,Meiringen,SUI,Europe,Boulder,46.727402,8.18736,5
+6,Moscow,RUS,Europe,Boulder,55.7504461,37.6174943,3
+7,Munich,GER,Europe,Boulder,48.1371079,11.5753822,5
+8,Nanjing,CHN,Asia,Boulder,32.0609736,118.7916458,1
+9,Navi Mumbai,IND,Asia,Boulder,19.0308262,73.0198537,2
+10,Paris,FRA,Europe,Boulder,48.8566969,2.3514616,1
+11,Salt Lake City,USA,North America,Boulder,40.75848,-111.888138,1
+12,Seoul,KOR,Asia,Boulder,37.5666791,126.9782914,1
+13,Tai'an,CHN,Asia,Boulder,36.2002968,117.0809316,1
+14,Toronto,CAN,Europe,Boulder,43.6534817,-79.3839347,1
+15,Vail,USA,North America,Boulder,39.6004763,-106.3420992,5
+16,Wujiang,CHN,Asia,Boulder,24.7970206,113.5830968,2

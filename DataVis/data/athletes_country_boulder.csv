@@ -1,0 +1,189 @@
+﻿idx,Country,Continent,Discipline,Year,Count
+0,AUS,Australia,Boulder,2015,4
+1,AUT,Europe,Boulder,2015,10
+2,BEL,Europe,Boulder,2015,1
+3,CAN,North America,Boulder,2015,11
+4,CHN,Asia,Boulder,2015,6
+5,CZE,Europe,Boulder,2015,3
+6,DEN,Europe,Boulder,2015,1
+7,ESP,Europe,Boulder,2015,1
+8,FRA,Europe,Boulder,2015,12
+9,GBR,Europe,Boulder,2015,7
+10,GER,Europe,Boulder,2015,13
+11,HKG,Asia,Boulder,2015,4
+12,IRI,Asia,Boulder,2015,1
+13,ISR,Asia,Boulder,2015,2
+14,ITA,Europe,Boulder,2015,6
+15,JPN,Asia,Boulder,2015,17
+16,KAZ,Asia,Boulder,2015,2
+17,KOR,Asia,Boulder,2015,4
+18,LAT,Europe,Boulder,2015,1
+19,MEX,North America,Boulder,2015,2
+20,NED,Europe,Boulder,2015,3
+21,NOR,Europe,Boulder,2015,2
+22,POL,Europe,Boulder,2015,3
+23,RUS,Europe,Boulder,2015,6
+24,SGP,Asia,Boulder,2015,3
+25,SLO,Europe,Boulder,2015,3
+26,SRB,Europe,Boulder,2015,1
+27,SUI,Europe,Boulder,2015,6
+28,SVK,Europe,Boulder,2015,1
+29,THA,Asia,Boulder,2015,1
+30,UKR,Europe,Boulder,2015,1
+31,USA,North America,Boulder,2015,21
+32,AUS,Australia,Boulder,2016,2
+33,AUT,Europe,Boulder,2016,15
+34,BEL,Europe,Boulder,2016,1
+35,CAN,North America,Boulder,2016,11
+36,CHN,Asia,Boulder,2016,6
+37,CZE,Europe,Boulder,2016,2
+38,DEN,Europe,Boulder,2016,1
+39,ESP,Europe,Boulder,2016,2
+40,FIN,Europe,Boulder,2016,2
+41,FRA,Europe,Boulder,2016,16
+42,GBR,Europe,Boulder,2016,7
+43,GER,Europe,Boulder,2016,10
+44,GUA,Australia,Boulder,2016,1
+45,HKG,Asia,Boulder,2016,1
+46,IND,Asia,Boulder,2016,16
+47,IRI,Asia,Boulder,2016,10
+48,IRL,Europe,Boulder,2016,1
+49,ISR,Asia,Boulder,2016,1
+50,ITA,Europe,Boulder,2016,9
+51,JPN,Asia,Boulder,2016,37
+52,KOR,Asia,Boulder,2016,3
+53,LAT,Europe,Boulder,2016,1
+54,LTU,Europe,Boulder,2016,2
+55,NED,Europe,Boulder,2016,4
+56,NEP,Asia,Boulder,2016,3
+57,NOR,Europe,Boulder,2016,2
+58,POL,Europe,Boulder,2016,3
+59,RUS,Europe,Boulder,2016,9
+60,SGP,Asia,Boulder,2016,3
+61,SLO,Europe,Boulder,2016,7
+62,SRB,Europe,Boulder,2016,1
+63,SUI,Europe,Boulder,2016,8
+64,SVK,Europe,Boulder,2016,1
+65,TPE,Asia,Boulder,2016,1
+66,UKR,Europe,Boulder,2016,1
+67,USA,North America,Boulder,2016,31
+68,AUS,Australia,Boulder,2017,2
+69,AUT,Europe,Boulder,2017,12
+70,BEL,Europe,Boulder,2017,4
+71,CAN,North America,Boulder,2017,12
+72,CHN,Asia,Boulder,2017,7
+73,CZE,Europe,Boulder,2017,1
+74,DEN,Europe,Boulder,2017,2
+75,ESP,Europe,Boulder,2017,3
+76,FIN,Europe,Boulder,2017,1
+77,FRA,Europe,Boulder,2017,12
+78,GBR,Europe,Boulder,2017,11
+79,GER,Europe,Boulder,2017,14
+80,IND,Asia,Boulder,2017,8
+81,IRI,Asia,Boulder,2017,12
+82,ISR,Asia,Boulder,2017,2
+83,ITA,Europe,Boulder,2017,6
+84,JPN,Asia,Boulder,2017,27
+85,KAZ,Asia,Boulder,2017,1
+86,KOR,Asia,Boulder,2017,5
+87,LAT,Europe,Boulder,2017,2
+88,LTU,Europe,Boulder,2017,1
+89,NED,Europe,Boulder,2017,1
+90,NEP,Asia,Boulder,2017,2
+91,NOR,Europe,Boulder,2017,3
+92,POL,Europe,Boulder,2017,3
+93,RUS,Europe,Boulder,2017,9
+94,SGP,Asia,Boulder,2017,1
+95,SLO,Europe,Boulder,2017,7
+96,SRB,Europe,Boulder,2017,1
+97,SUI,Europe,Boulder,2017,10
+98,SWE,Europe,Boulder,2017,1
+99,THA,Asia,Boulder,2017,6
+100,TPE,Asia,Boulder,2017,1
+101,UKR,Europe,Boulder,2017,3
+102,USA,North America,Boulder,2017,23
+103,ARG,South America,Boulder,2018,1
+104,AUS,Australia,Boulder,2018,4
+105,AUT,Europe,Boulder,2018,15
+106,BEL,Europe,Boulder,2018,2
+107,CAN,North America,Boulder,2018,8
+108,CHN,Asia,Boulder,2018,4
+109,CZE,Europe,Boulder,2018,1
+110,DEN,Europe,Boulder,2018,1
+111,ESP,Europe,Boulder,2018,2
+112,FRA,Europe,Boulder,2018,15
+113,GBR,Europe,Boulder,2018,8
+114,GER,Europe,Boulder,2018,17
+115,HKG,Asia,Boulder,2018,3
+116,IRI,Asia,Boulder,2018,1
+117,ISR,Asia,Boulder,2018,2
+118,ITA,Europe,Boulder,2018,5
+119,JPN,Asia,Boulder,2018,28
+120,KOR,Asia,Boulder,2018,4
+121,LAT,Europe,Boulder,2018,1
+122,NED,Europe,Boulder,2018,2
+123,NOR,Europe,Boulder,2018,2
+124,POL,Europe,Boulder,2018,1
+125,RUS,Europe,Boulder,2018,10
+126,SGP,Asia,Boulder,2018,2
+127,SLO,Europe,Boulder,2018,10
+128,SRB,Europe,Boulder,2018,1
+129,SUI,Europe,Boulder,2018,12
+130,SWE,Europe,Boulder,2018,1
+131,THA,Asia,Boulder,2018,1
+132,TPE,Asia,Boulder,2018,1
+133,UKR,Europe,Boulder,2018,3
+134,USA,North America,Boulder,2018,20
+135,ARG,South America,Boulder,2019,1
+136,AUS,Australia,Boulder,2019,3
+137,AUT,Europe,Boulder,2019,14
+138,BEL,Europe,Boulder,2019,4
+139,CAN,North America,Boulder,2019,7
+140,CHI,South America,Boulder,2019,1
+141,CHN,Asia,Boulder,2019,3
+142,CZE,Europe,Boulder,2019,2
+143,ECU,South America,Boulder,2019,1
+144,ESP,Europe,Boulder,2019,2
+145,FRA,Europe,Boulder,2019,12
+146,GBR,Europe,Boulder,2019,10
+147,GER,Europe,Boulder,2019,14
+148,HKG,Asia,Boulder,2019,1
+149,HUN,Europe,Boulder,2019,1
+150,IRI,Asia,Boulder,2019,2
+151,ISR,Asia,Boulder,2019,2
+152,ITA,Europe,Boulder,2019,6
+153,JPN,Asia,Boulder,2019,23
+154,KOR,Asia,Boulder,2019,3
+155,LTU,Europe,Boulder,2019,1
+156,MEX,North America,Boulder,2019,1
+157,NED,Europe,Boulder,2019,3
+158,RUS,Europe,Boulder,2019,12
+159,SLO,Europe,Boulder,2019,10
+160,SUI,Europe,Boulder,2019,7
+161,SVK,Europe,Boulder,2019,1
+162,SWE,Europe,Boulder,2019,1
+163,TPE,Asia,Boulder,2019,1
+164,UKR,Europe,Boulder,2019,4
+165,USA,North America,Boulder,2019,17
+166,AUT,Europe,Boulder,2021,9
+167,BEL,Europe,Boulder,2021,3
+168,CAN,North America,Boulder,2021,3
+169,CZE,Europe,Boulder,2021,1
+170,DEN,Europe,Boulder,2021,1
+171,FIN,Europe,Boulder,2021,1
+172,FRA,Europe,Boulder,2021,12
+173,GBR,Europe,Boulder,2021,10
+174,GER,Europe,Boulder,2021,12
+175,ISR,Asia,Boulder,2021,6
+176,ITA,Europe,Boulder,2021,5
+177,JPN,Asia,Boulder,2021,17
+178,KOR,Asia,Boulder,2021,1
+179,LAT,Europe,Boulder,2021,1
+180,NED,Europe,Boulder,2021,3
+181,NOR,Europe,Boulder,2021,1
+182,RUS,Europe,Boulder,2021,9
+183,SLO,Europe,Boulder,2021,12
+184,SRB,Europe,Boulder,2021,1
+185,SUI,Europe,Boulder,2021,8
+186,UKR,Europe,Boulder,2021,2
+187,USA,North America,Boulder,2021,19

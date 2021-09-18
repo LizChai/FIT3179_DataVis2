@@ -1,0 +1,143 @@
+﻿idx,Country,Continent,Discipline,Year,Count
+0,AUT,Europe,Speed,2015,5
+1,AZE,Europe,Speed,2015,1
+2,CAN,North America,Speed,2015,11
+3,CHN,Asia,Speed,2015,6
+4,CZE,Europe,Speed,2015,2
+5,ECU,South America,Speed,2015,4
+6,FRA,Europe,Speed,2015,8
+7,HKG,Asia,Speed,2015,1
+8,IRI,Asia,Speed,2015,3
+9,ITA,Europe,Speed,2015,9
+10,JPN,Asia,Speed,2015,3
+11,KAZ,Asia,Speed,2015,6
+12,KOR,Asia,Speed,2015,4
+13,POL,Europe,Speed,2015,12
+14,RUS,Europe,Speed,2015,19
+15,SGP,Asia,Speed,2015,2
+16,SLO,Europe,Speed,2015,1
+17,UKR,Europe,Speed,2015,5
+18,USA,North America,Speed,2015,5
+19,AUT,Europe,Speed,2016,5
+20,BUL,Europe,Speed,2016,1
+21,CAN,North America,Speed,2016,3
+22,CHN,Asia,Speed,2016,19
+23,CZE,Europe,Speed,2016,2
+24,ECU,South America,Speed,2016,2
+25,ESP,Europe,Speed,2016,2
+26,FRA,Europe,Speed,2016,9
+27,GER,Europe,Speed,2016,1
+28,HKG,Asia,Speed,2016,2
+29,INA,Asia,Speed,2016,5
+30,IRI,Asia,Speed,2016,5
+31,ITA,Europe,Speed,2016,15
+32,JPN,Asia,Speed,2016,3
+33,KAZ,Asia,Speed,2016,1
+34,KOR,Asia,Speed,2016,3
+35,MGL,Asia,Speed,2016,2
+36,PAK,Asia,Speed,2016,2
+37,POL,Europe,Speed,2016,11
+38,RUS,Europe,Speed,2016,15
+39,UKR,Europe,Speed,2016,6
+40,USA,North America,Speed,2016,4
+41,AUT,Europe,Speed,2017,5
+42,CAN,North America,Speed,2017,4
+43,CHN,Asia,Speed,2017,16
+44,CZE,Europe,Speed,2017,2
+45,ECU,South America,Speed,2017,7
+46,ESP,Europe,Speed,2017,6
+47,FRA,Europe,Speed,2017,6
+48,GBR,Europe,Speed,2017,14
+49,GER,Europe,Speed,2017,4
+50,HKG,Asia,Speed,2017,4
+51,INA,Asia,Speed,2017,15
+52,IRI,Asia,Speed,2017,5
+53,ITA,Europe,Speed,2017,17
+54,JPN,Asia,Speed,2017,3
+55,KAZ,Asia,Speed,2017,8
+56,KOR,Asia,Speed,2017,7
+57,POL,Europe,Speed,2017,10
+58,RUS,Europe,Speed,2017,21
+59,SUI,Europe,Speed,2017,4
+60,SWE,Europe,Speed,2017,1
+61,UKR,Europe,Speed,2017,8
+62,USA,North America,Speed,2017,16
+63,ARG,South America,Speed,2018,1
+64,AUS,Australia,Speed,2018,1
+65,AUT,Europe,Speed,2018,9
+66,BEL,Europe,Speed,2018,4
+67,CAN,North America,Speed,2018,6
+68,CHI,South America,Speed,2018,1
+69,CHN,Asia,Speed,2018,20
+70,CZE,Europe,Speed,2018,4
+71,ECU,South America,Speed,2018,3
+72,FRA,Europe,Speed,2018,11
+73,GER,Europe,Speed,2018,3
+74,HKG,Asia,Speed,2018,1
+75,INA,Asia,Speed,2018,16
+76,IRI,Asia,Speed,2018,6
+77,ITA,Europe,Speed,2018,18
+78,JPN,Asia,Speed,2018,12
+79,KAZ,Asia,Speed,2018,7
+80,KOR,Asia,Speed,2018,2
+81,NZL,Australia,Speed,2018,1
+82,POL,Europe,Speed,2018,10
+83,RUS,Europe,Speed,2018,34
+84,SGP,Asia,Speed,2018,6
+85,SLO,Europe,Speed,2018,2
+86,SRB,Europe,Speed,2018,1
+87,SUI,Europe,Speed,2018,3
+88,THA,Asia,Speed,2018,2
+89,TPE,Asia,Speed,2018,1
+90,UKR,Europe,Speed,2018,11
+91,USA,North America,Speed,2018,14
+92,ARG,South America,Speed,2019,1
+93,AUS,Australia,Speed,2019,1
+94,AUT,Europe,Speed,2019,8
+95,BEL,Europe,Speed,2019,2
+96,BRA,South America,Speed,2019,1
+97,CAN,North America,Speed,2019,2
+98,CHI,South America,Speed,2019,1
+99,CHN,Asia,Speed,2019,23
+100,CZE,Europe,Speed,2019,1
+101,ECU,South America,Speed,2019,3
+102,ESP,Europe,Speed,2019,1
+103,FRA,Europe,Speed,2019,12
+104,GBR,Europe,Speed,2019,2
+105,GER,Europe,Speed,2019,3
+106,HKG,Asia,Speed,2019,2
+107,INA,Asia,Speed,2019,6
+108,IRI,Asia,Speed,2019,7
+109,ITA,Europe,Speed,2019,6
+110,JPN,Asia,Speed,2019,7
+111,KAZ,Asia,Speed,2019,7
+112,KOR,Asia,Speed,2019,5
+113,POL,Europe,Speed,2019,5
+114,RUS,Europe,Speed,2019,27
+115,SLO,Europe,Speed,2019,2
+116,SUI,Europe,Speed,2019,1
+117,TPE,Asia,Speed,2019,1
+118,UKR,Europe,Speed,2019,4
+119,USA,North America,Speed,2019,11
+120,ARG,South America,Speed,2021,1
+121,AUT,Europe,Speed,2021,4
+122,CAN,North America,Speed,2021,2
+123,CHI,South America,Speed,2021,1
+124,CZE,Europe,Speed,2021,2
+125,DEN,Europe,Speed,2021,1
+126,ECU,South America,Speed,2021,3
+127,ESP,Europe,Speed,2021,3
+128,FRA,Europe,Speed,2021,9
+129,GER,Europe,Speed,2021,6
+130,INA,Asia,Speed,2021,9
+131,IRI,Asia,Speed,2021,2
+132,ITA,Europe,Speed,2021,5
+133,JPN,Asia,Speed,2021,7
+134,KAZ,Asia,Speed,2021,6
+135,POL,Europe,Speed,2021,5
+136,RSA,South Africa,Speed,2021,2
+137,RUS,Europe,Speed,2021,16
+138,SLO,Europe,Speed,2021,2
+139,SUI,Europe,Speed,2021,1
+140,UKR,Europe,Speed,2021,3
+141,USA,North America,Speed,2021,17
