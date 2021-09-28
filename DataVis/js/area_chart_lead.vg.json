@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Number of Athletes for Lead Discipline",
   "width":"container",
-  "data": {"url": "../data/athletes_country_lead.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/athletes_country_lead.csv"},
   "mark": "area",
   "encoding": {
     "x": {

@@ -14,7 +14,7 @@ var symbol_map_lead = "js/symbol_map_lead.vg.json";
 var symbol_map_boulder = "js/symbol_map_boulder.vg.json";
 var symbol_map_speed = "js/symbol_map_speed.vg.json";
 
-var pop_pyramid_lead = "js/pop_pyramid_lead.vg.json";
+var pop_pyramid_lead = "js/pop_pyramid_lead_2.vg.json";
 var pop_pyramid_boulder = "js/pop_pyramid_boulder.vg.json";
 var pop_pyramid_speed = "js/pop_pyramid_speed.vg.json"
 
