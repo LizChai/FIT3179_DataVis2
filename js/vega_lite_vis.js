@@ -1,4 +1,4 @@
-var discipline = "boulder";
+var discipline = "lead";
 
 function choice(chosen) {
     document.getElementById("selected").innerHTML = "Displaying " + chosen + " data";
