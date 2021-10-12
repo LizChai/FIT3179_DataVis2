@@ -15,7 +15,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/host_country_lead.csv"
+        "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/host_country_boulder.csv"
       },
       "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {

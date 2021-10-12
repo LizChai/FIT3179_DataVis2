@@ -1,6 +1,6 @@
 ﻿idx,Location,Country,Continent,Discipline,Latitude,Longitude,Count
 0,Arco,ITA,Europe,Speed,45.9181327,10.8860953,3
-1,Central Saanich,CAN,Europe,Speed,48.5946782,-123.4207265,1
+1,Central Saanich,CAN,North America,Speed,48.5946782,-123.4207265,1
 2,Chamonix,FRA,Europe,Speed,45.92546,6.86981,4
 3,Chongqing,CHN,Asia,Speed,29.5647398,106.5478767,5
 4,Edinburgh,GBR,Europe,Speed,55.9533456,-3.1883749,1

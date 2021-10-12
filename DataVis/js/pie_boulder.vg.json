@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Gender Split",
+    "description": "Pie chart",
+    "width":250,
+    "background": "#f0f0f0",
+    "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/pie_boulder.csv"},
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "Number"},
+      "color": {"field": "Gender", "type": "nominal", "scale":{"domain":["Female", "Male"], "range":["#b84e4e", "#4477AA"]}},
+      "tooltip": [
+        {"field": "Gender", "type" : "nominal" }, 
+        {"field": "Number", "type": "quantitative"}]
+    },
+    "config": {
+      "view": {
+        "stroke": null
+      },
+      "axis": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "legend": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "header": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "title": {
+        "font": "Oxygen",
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    }
+  }
+  

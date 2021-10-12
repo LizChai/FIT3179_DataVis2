@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/athlete_points_boulder.csv"},
+    "width":"container",
+    "background": "#f0f0f0",
+    "params" : [{
+        "name": "gender_selection",
+        "bind":{
+            "input": "select",
+            "options": [
+                null,
+                "Female",
+                "Male"
+            ],
+            "labels": [
+                "Show All",
+                "Female",
+                "Male"
+            ],
+            "name": "Gender Selection: "
+        }
+    }],
+    "transform": [
+        {"window": [{"op": "rank","as": "rank"}],
+          "sort": [{ "field": "Points", "order": "descending" }]}, 
+        {"filter": "datum.rank > 20"},
+        {"filter": "gender_selection == null || datum.Gender == gender_selection"}
+      ],
+    "title": "Athlete Rankings",
+    "encoding": {
+        "x": {
+            "field": "Points",
+            "type": "quantitative"
+        },
+        "y": {
+            "field": "Name",
+            "type": "nominal",
+            "sort": {"field": "Points", "op": "average", "order":"descending"}
+        },
+        "color": {"field": "Gender", "type": "nominal", "scale":{"domain":["Female", "Male"], "range":["#b84e4e", "#4477AA"]}},
+        "tooltip": [
+            {"field": "Name", "type": "nominal"},
+            {"field": "Gender", "type": "nominal"},
+            {"field": "Points", "type": "quantitative"},
+            {"field": "Discipline", "type": "nominal"}]
+        },
+    "layer": [{
+        "mark": "bar"
+    },{
+        "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 3
+        },
+        "encoding": {
+          "text": {"field": "Points", "type": "quantitative"}
+        }
+    }
+    
+    ],
+    "config": {
+        "view": {
+          "stroke": null
+        },
+        "axis": {
+          "labelFont": "Oxygen",
+          "titleFont": "Oxygen"
+        },
+        "legend": {
+          "labelFont": "Oxygen",
+          "titleFont": "Oxygen"
+        },
+        "header": {
+          "labelFont": "Oxygen",
+          "titleFont": "Oxygen"
+        },
+        "title": {
+          "font": "Oxygen",
+          "fontSize": 16,
+          "fontWeight": 600
+        }
+      }
+    
+  }
+  

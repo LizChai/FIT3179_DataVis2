@@ -3,7 +3,7 @@
   "title": "Total Number of Athletes",
   "width": "container",
   "background": "#f0f0f0",
-  "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/athletes_country_lead.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/athletes_country_speed.csv"},
   "mark": "area",
   "encoding": {
     "x": {

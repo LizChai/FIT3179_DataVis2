@@ -1,4 +1,4 @@
-var discipline = "lead";
+var discipline = "boulder";
 
 function choice(chosen) {
     document.getElementById("selected").innerHTML = "Displaying " + chosen + " data";
@@ -27,9 +27,13 @@ var pop_pyramid_speed = "js/pop_pyramid_speed.vg.json"
 
 //Line Chart
 var line_chart_lead = "js/line_chart_lead.vg.json";
+var line_chart_boulder = "js/line_chart_boulder.vg.json";
+var line_chart_speed = "js/line_chart_speed.vg.json";
 
 // Stacked bar chart
 var stacked_chart_lead = "js/stacked_chart_lead.vg.json";
+var stacked_chart_boulder = "js/stacked_chart_boulder.vg.json";
+var stacked_chart_speed = "js/stacked_chart_speed.vg.json";
 
 if (discipline == "lead"){
     vegaEmbed('#pie_chart', pie_chart_lead, {"actions": false}).then(function(result) {
@@ -65,6 +69,12 @@ else if (discipline == "boulder") {
     
     vegaEmbed('#pop_pyramid', pop_pyramid_boulder, {"actions": false}).then(function(result) {
         }).catch(console.error);
+
+    vegaEmbed('#line_graph', line_chart_boulder, {"actions": false}).then(function(result) {
+        }).catch(console.error);
+    
+    vegaEmbed('#stacked_chart', stacked_chart_boulder, {"actions": false}).then(function(result) {
+        }).catch(console.error);
 }
 else {
     vegaEmbed('#pie_chart', pie_chart_speed, {"actions": false}).then(function(result) {
@@ -77,5 +87,11 @@ else {
         }).catch(console.error);
 
     vegaEmbed('#pop_pyramid', pop_pyramid_speed, {"actions": false}).then(function(result) {
+        }).catch(console.error);
+
+    vegaEmbed('#line_graph', line_chart_speed, {"actions": false}).then(function(result) {
+        }).catch(console.error);
+    
+    vegaEmbed('#stacked_chart', stacked_chart_speed, {"actions": false}).then(function(result) {
         }).catch(console.error);
 }
