@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Medal Total (2015-2021)",
-    "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/medals_year_lead.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/medals_year_lead.csv"},
     "width":"container",
     "height":250,
     "background": "#f0f0f0",

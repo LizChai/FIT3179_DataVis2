@@ -4,7 +4,7 @@
     "description": "Pie chart",
     "width":250,
     "background": "#f0f0f0",
-    "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/pie_speed.csv"},
+    "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/pie_speed.csv"},
     "mark": "arc",
     "encoding": {
       "theta": {"field": "Number"},

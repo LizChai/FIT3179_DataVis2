@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/DataVis/data/athlete_points_lead.csv"},
+    "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/athlete_points_lead.csv"},
     "width":"container",
     "background": "#f0f0f0",
     "params" : [{
