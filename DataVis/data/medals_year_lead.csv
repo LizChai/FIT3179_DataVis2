@@ -1,0 +1,78 @@
+﻿idx,Country,Continent,Year,Discipline,Count
+0,AUT,Europe,2015,Lead,2
+1,AUT,Europe,2016,Lead,0
+2,AUT,Europe,2017,Lead,2
+3,AUT,Europe,2018,Lead,0
+4,AUT,Europe,2019,Lead,0
+5,AUT,Europe,2020,Lead,0
+6,AUT,Europe,2021,Lead,0
+7,BEL,Europe,2015,Lead,0
+8,BEL,Europe,2016,Lead,1
+9,BEL,Europe,2017,Lead,0
+10,BEL,Europe,2018,Lead,0
+11,BEL,Europe,2019,Lead,0
+12,BEL,Europe,2020,Lead,0
+13,BEL,Europe,2021,Lead,0
+14,CAN,North America,2015,Lead,0
+15,CAN,North America,2016,Lead,0
+16,CAN,North America,2017,Lead,0
+17,CAN,North America,2018,Lead,1
+18,CAN,North America,2019,Lead,1
+19,CAN,North America,2020,Lead,0
+20,CAN,North America,2021,Lead,0
+21,CZE,Europe,2015,Lead,1
+22,CZE,Europe,2016,Lead,0
+23,CZE,Europe,2017,Lead,0
+24,CZE,Europe,2018,Lead,1
+25,CZE,Europe,2019,Lead,1
+26,CZE,Europe,2020,Lead,0
+27,CZE,Europe,2021,Lead,0
+28,ESP,Europe,2015,Lead,0
+29,ESP,Europe,2016,Lead,0
+30,ESP,Europe,2017,Lead,0
+31,ESP,Europe,2018,Lead,1
+32,ESP,Europe,2019,Lead,1
+33,ESP,Europe,2020,Lead,0
+34,ESP,Europe,2021,Lead,0
+35,FRA,Europe,2015,Lead,1
+36,FRA,Europe,2016,Lead,1
+37,FRA,Europe,2017,Lead,1
+38,FRA,Europe,2018,Lead,0
+39,FRA,Europe,2019,Lead,0
+40,FRA,Europe,2020,Lead,0
+41,FRA,Europe,2021,Lead,0
+42,ITA,Europe,2015,Lead,0
+43,ITA,Europe,2016,Lead,1
+44,ITA,Europe,2017,Lead,1
+45,ITA,Europe,2018,Lead,0
+46,ITA,Europe,2019,Lead,0
+47,ITA,Europe,2020,Lead,0
+48,ITA,Europe,2021,Lead,2
+49,JPN,Asia,2015,Lead,0
+50,JPN,Asia,2016,Lead,1
+51,JPN,Asia,2017,Lead,0
+52,JPN,Asia,2018,Lead,1
+53,JPN,Asia,2019,Lead,1
+54,JPN,Asia,2020,Lead,0
+55,JPN,Asia,2021,Lead,1
+56,KOR,Asia,2015,Lead,1
+57,KOR,Asia,2016,Lead,1
+58,KOR,Asia,2017,Lead,1
+59,KOR,Asia,2018,Lead,1
+60,KOR,Asia,2019,Lead,1
+61,KOR,Asia,2020,Lead,0
+62,KOR,Asia,2021,Lead,0
+63,SLO,Europe,2015,Lead,1
+64,SLO,Europe,2016,Lead,1
+65,SLO,Europe,2017,Lead,2
+66,SLO,Europe,2018,Lead,1
+67,SLO,Europe,2019,Lead,1
+68,SLO,Europe,2020,Lead,0
+69,SLO,Europe,2021,Lead,1
+70,USA,North America,2015,Lead,0
+71,USA,North America,2016,Lead,0
+72,USA,North America,2017,Lead,0
+73,USA,North America,2018,Lead,0
+74,USA,North America,2019,Lead,0
+75,USA,North America,2020,Lead,0
+76,USA,North America,2021,Lead,2

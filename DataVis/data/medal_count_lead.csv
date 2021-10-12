@@ -1,0 +1,22 @@
+﻿idx,Country,Continent,Discipline,Medal,Count
+1,AUT,Europe,Lead,Gold,1
+2,CZE,Europe,Lead,Gold,3
+3,FRA,Europe,Lead,Gold,1
+4,ITA,Europe,Lead,Gold,1
+5,KOR,Asia,Lead,Gold,2
+6,SLO,Europe,Lead,Gold,4
+7,AUT,Europe,Lead,Silver,1
+8,ESP,Europe,Lead,Silver,2
+9,FRA,Europe,Lead,Silver,1
+10,ITA,Europe,Lead,Silver,2
+11,KOR,Asia,Lead,Silver,2
+12,SLO,Europe,Lead,Silver,2
+13,USA,North America,Lead,Silver,2
+14,AUT,Europe,Lead,Bronze,2
+15,BEL,Europe,Lead,Bronze,1
+16,CAN,North America,Lead,Bronze,2
+17,FRA,Europe,Lead,Bronze,1
+18,ITA,Europe,Lead,Bronze,1
+19,JPN,Asia,Lead,Bronze,4
+20,KOR,Asia,Lead,Bronze,1
+21,SLO,Europe,Lead,Bronze,1

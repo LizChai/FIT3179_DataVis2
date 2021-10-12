@@ -1,0 +1,71 @@
+﻿idx,Country,Continent,Year,Discipline,Count
+0,CHN,Asia,2015,Speed,1
+1,CHN,Asia,2016,Speed,0
+2,CHN,Asia,2017,Speed,0
+3,CHN,Asia,2018,Speed,0
+4,CHN,Asia,2019,Speed,1
+5,CHN,Asia,2020,Speed,0
+6,CHN,Asia,2021,Speed,0
+7,CZE,Europe,2015,Speed,1
+8,CZE,Europe,2016,Speed,0
+9,CZE,Europe,2017,Speed,0
+10,CZE,Europe,2018,Speed,0
+11,CZE,Europe,2019,Speed,0
+12,CZE,Europe,2020,Speed,0
+13,CZE,Europe,2021,Speed,0
+14,FRA,Europe,2015,Speed,1
+15,FRA,Europe,2016,Speed,1
+16,FRA,Europe,2017,Speed,1
+17,FRA,Europe,2018,Speed,2
+18,FRA,Europe,2019,Speed,2
+19,FRA,Europe,2020,Speed,0
+20,FRA,Europe,2021,Speed,0
+21,INA,Asia,2015,Speed,0
+22,INA,Asia,2016,Speed,0
+23,INA,Asia,2017,Speed,0
+24,INA,Asia,2018,Speed,1
+25,INA,Asia,2019,Speed,2
+26,INA,Asia,2020,Speed,0
+27,INA,Asia,2021,Speed,2
+28,IRI,Asia,2015,Speed,0
+29,IRI,Asia,2016,Speed,0
+30,IRI,Asia,2017,Speed,1
+31,IRI,Asia,2018,Speed,0
+32,IRI,Asia,2019,Speed,0
+33,IRI,Asia,2020,Speed,0
+34,IRI,Asia,2021,Speed,0
+35,ITA,Europe,2015,Speed,0
+36,ITA,Europe,2016,Speed,0
+37,ITA,Europe,2017,Speed,1
+38,ITA,Europe,2018,Speed,0
+39,ITA,Europe,2019,Speed,0
+40,ITA,Europe,2020,Speed,0
+41,ITA,Europe,2021,Speed,0
+42,POL,Europe,2015,Speed,0
+43,POL,Europe,2016,Speed,2
+44,POL,Europe,2017,Speed,0
+45,POL,Europe,2018,Speed,0
+46,POL,Europe,2019,Speed,0
+47,POL,Europe,2020,Speed,0
+48,POL,Europe,2021,Speed,3
+49,RUS,Europe,2015,Speed,2
+50,RUS,Europe,2016,Speed,2
+51,RUS,Europe,2017,Speed,3
+52,RUS,Europe,2018,Speed,2
+53,RUS,Europe,2019,Speed,1
+54,RUS,Europe,2020,Speed,0
+55,RUS,Europe,2021,Speed,1
+56,UKR,Europe,2015,Speed,1
+57,UKR,Europe,2016,Speed,1
+58,UKR,Europe,2017,Speed,0
+59,UKR,Europe,2018,Speed,1
+60,UKR,Europe,2019,Speed,0
+61,UKR,Europe,2020,Speed,0
+62,UKR,Europe,2021,Speed,0
+63,USA,North America,2015,Speed,0
+64,USA,North America,2016,Speed,0
+65,USA,North America,2017,Speed,0
+66,USA,North America,2018,Speed,0
+67,USA,North America,2019,Speed,0
+68,USA,North America,2020,Speed,0
+69,USA,North America,2021,Speed,1

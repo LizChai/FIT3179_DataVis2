@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Host Countries for Lead Discipline",
+  "title": "Host Countries",
   "width":"container",
   "height":600,
+  "background": "#f0f0f0",
   "projection": {"type": "equalEarth"},
   "layer": [
     {
@@ -23,13 +24,48 @@
         "size": {
           "field": "Count",
           "type": "ordinal",
-          "scale": {"domain": [1,2,3,4,5,6,7]}
+          "scale": {
+            "type": "threshold",
+            "domain": [2, 4, 6], 
+            "range": [100, 500, 2000] }
         },
         "color": {
           "field": "Continent",
-          "type": "nominal"
-        }
+          "type": "nominal",
+          "scale": { "domain": [ "North America", "South America", "Europe", "Australia", "Asia" ], "range": [ "#e4710e", "#dfb52b", "#4d9159", "#1a6381", "#6b67a7"] },
+          "sort":"ascending"
+        },
+        "opacity": { "value": 0.6 },
+        "stroke": {"value": "black"},
+        "tooltip": [
+          {"field": "Location","type": "nominal"},
+          {"field": "Country","type": "nominal"},
+          {"field": "Continent","type": "nominal"},
+          {"field": "Count", "type": "quantitative"}
+        ]
       }
     }
-  ]
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "legend": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "header": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "title": {
+      "font": "Oxygen",
+      "fontSize": 16,
+      "fontWeight": 600
+    }
+  }
 }

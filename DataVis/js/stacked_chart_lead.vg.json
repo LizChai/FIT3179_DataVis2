@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Medal Tally (2015-2021)",
+  "data": {"url": "../data/medal_count_lead.csv"},
+  "width": "container",
+  "background": "#f0f0f0",
+  "mark": "bar",
+  "transform": [
+    {"window": [{"op": "rank","as": "rank"}],
+      "sort": [{ "field": "Count", "order": "descending" }]} 
+  ],
+  "encoding": {
+    "x": {"aggregate": "sum", "field": "Count", "title": "Medal Total"},
+    "y": {"field": "Country", "sort":"-x"},
+    "color": {"field": "Medal",
+        "scale": {"domain": ["Gold", "Silver", "Bronze"], "range":["#DAA520", "#A9A9A9","#cd7f32"]},
+        "legend": {"title": "Medals"}
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Medal", "type": "nominal"},
+      {"field": "Count", "type":"nominal"}
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "legend": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "header": {
+      "labelFont": "Oxygen",
+      "titleFont": "Oxygen"
+    },
+    "title": {
+      "font": "Oxygen",
+      "fontSize": 16,
+      "fontWeight": 600
+    }
+  }
+}

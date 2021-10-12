@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Medal Total (2015-2021)",
+    "data": {"url": "../data/medals_year_lead.csv"},
+    "width":"container",
+    "height":250,
+    "background": "#f0f0f0",
+    "mark": {
+      "type": "line",
+      "point": {
+        "filled" : false,
+        "fill" : "white"
+      }
+    },
+    "encoding": {
+      "x": {"timeUnit": "year", "field": "Year", "type": "temporal", "axis": {"format": "%Y", "title": "Year"}},
+      "y": {"aggregate":"sum", "field": "Count", "type":"quantitative", "title":"Number of Medals"},
+      "color": {"field": "Country", "type": "nominal"},
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Continent", "type": "nominal"},
+        {"field": "Count", "type":"quantitative"}
+      ]
+    },
+    "config": {
+      "view": {
+        "stroke": null
+      },
+      "axis": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "legend": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "header": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "title": {
+        "font": "Oxygen",
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    }
+  }

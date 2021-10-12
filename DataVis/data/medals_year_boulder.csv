@@ -1,0 +1,64 @@
+﻿idx,Country,Continent,Year,Discipline,Count
+1,CZE,Europe,2015,Boulder,1
+1,CZE,Europe,2016,Boulder,0
+1,CZE,Europe,2017,Boulder,0
+1,CZE,Europe,2018,Boulder,0
+18,CZE,Europe,2019,Boulder,1
+1,CZE,Europe,2020,Boulder,0
+22,CZE,Europe,2021,Boulder,1
+6,FRA,Europe,2015,Boulder,0
+6,FRA,Europe,2016,Boulder,1
+6,FRA,Europe,2017,Boulder,0
+15,FRA,Europe,2018,Boulder,1
+19,FRA,Europe,2019,Boulder,1
+19,FRA,Europe,2020,Boulder,0
+23,FRA,Europe,2021,Boulder,1
+2,GBR,Europe,2015,Boulder,1
+7,GBR,Europe,2016,Boulder,1
+10,GBR,Europe,2017,Boulder,1
+7,GBR,Europe,2018,Boulder,0
+10,GBR,Europe,2019,Boulder,0
+7,GBR,Europe,2020,Boulder,0
+10,GBR,Europe,2021,Boulder,0
+3,GER,Europe,2015,Boulder,1
+3,GER,Europe,2016,Boulder,0
+3,GER,Europe,2017,Boulder,0
+3,GER,Europe,2018,Boulder,0
+3,GER,Europe,2019,Boulder,0
+3,GER,Europe,2020,Boulder,0
+3,GER,Europe,2021,Boulder,0
+4,JPN,Asia,2015,Boulder,2
+8,JPN,Asia,2016,Boulder,3
+11,JPN,Asia,2017,Boulder,2
+16,JPN,Asia,2018,Boulder,4
+20,JPN,Asia,2019,Boulder,3
+20,JPN,Asia,2020,Boulder,0
+24,JPN,Asia,2021,Boulder,2
+5,KOR,Asia,2015,Boulder,1
+5,KOR,Asia,2016,Boulder,0
+12,KOR,Asia,2017,Boulder,1
+5,KOR,Asia,2018,Boulder,0
+5,KOR,Asia,2019,Boulder,0
+5,KOR,Asia,2020,Boulder,0
+5,KOR,Asia,2021,Boulder,0
+9,RUS,Europe,2015,Boulder,0
+9,RUS,Europe,2016,Boulder,1
+13,RUS,Europe,2017,Boulder,1
+9,RUS,Europe,2018,Boulder,0
+9,RUS,Europe,2019,Boulder,0
+9,RUS,Europe,2020,Boulder,0
+9,RUS,Europe,2021,Boulder,0
+14,SLO,Europe,2015,Boulder,0
+14,SLO,Europe,2016,Boulder,0
+14,SLO,Europe,2017,Boulder,1
+17,SLO,Europe,2018,Boulder,1
+21,SLO,Europe,2019,Boulder,1
+21,SLO,Europe,2020,Boulder,0
+25,SLO,Europe,2021,Boulder,1
+26,USA,North America,2015,Boulder,0
+26,USA,North America,2016,Boulder,0
+26,USA,North America,2017,Boulder,0
+26,USA,North America,2018,Boulder,0
+26,USA,North America,2019,Boulder,0
+26,USA,North America,2020,Boulder,0
+26,USA,North America,2021,Boulder,1
