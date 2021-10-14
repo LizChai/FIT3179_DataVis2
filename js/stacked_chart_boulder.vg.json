@@ -3,18 +3,45 @@
   "title": "Medal Tally (2015-2021)",
   "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/medal_count_boulder.csv"},
   "width": "container",
+  "height":250,
   "background": "#f0f0f0",
   "mark": "bar",
+  "params": [{
+    "name": "click",
+    "select": {
+      "type": "point",
+      "fields": ["Medal"]
+    },
+    "bind": "legend"
+  }],
   "transform": [
     {"window": [{"op": "rank","as": "rank"}],
-      "sort": [{"field": "Count", "order": "descending" }]} 
+      "sort": [{"field": "Count", "order": "descending" }]},
+    {
+      "calculate": "indexof(['Gold', 'Silver', 'Bronze'], datum.Medal)",
+      "as" : "medal_order"
+    } 
   ],
   "encoding": {
     "x": {"aggregate": "sum", "field": "Count", "title": "Medal Total"},
     "y": {"field": "Country", "sort":"-x"},
-    "color": {"field": "Medal",
+    "order": {"field": "medal_order", "type":"ordinal"},
+    "color": {
+      "condition": {
+        "param": "click",
+        "field":"Medal",
+        "type":"nominal",
         "scale": {"domain": ["Gold", "Silver", "Bronze"], "range":["#DAA520", "#A9A9A9","#cd7f32"]},
-        "legend": {"title": "Medals"}
+        "legend": {"title": "Medals", "values":["Gold", "Silver", "Bronze"]}
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "click",
+        "value": 1
+      },
+      "value": 0.1
     },
     "tooltip": [
       {"field": "Country", "type": "nominal"},

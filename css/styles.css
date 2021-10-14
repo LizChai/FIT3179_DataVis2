@@ -1,45 +1,47 @@
 #symbol_map {
-	top: 10px;
-	bottom: 10px; 
+	top: 2px;
+	bottom: 2px; 
 	width: 100%;
 	margin: auto;
 	display: block;
 }
 
 #pie_chart {
-	top: 40%;
-	left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-#area_chart {
-	top: 10px;
-	bottom: 10px; 
+	top: 2px;
+	bottom: 2px; 
 	width: 100%;
 	margin: auto;
 	display: block;
 }
 
+#area_chart {
+	top: 2px;
+	bottom: 2px; 
+	width: 100%;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
 #pop_pyramid {
-	top: 10px;
-	bottom: 10px; 
+	top: 2px;
+	bottom: 2px; 
 	width: 100%;
 	margin: auto;
 	display: block;
 }
 
 #line_graph {
-	top: 10px;
-	bottom: 10px; 
+	top: 2px;
+	bottom: 2px; 
 	width: 100%;
 	margin: auto;
 	display: block;
 }
 
 #stacked_chart {
-	top: 10px;
-	bottom: 10px; 
+	top: 2px;
+	bottom: 2px; 
 	width: 100%;
 	margin: auto;
 	display: block;

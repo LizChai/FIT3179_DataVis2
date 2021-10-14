@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Host Countries",
+  "title": "World Cup Location",
+  "autosize":"fit-x",
   "width":"container",
-  "height":600,
+  "height":300,
   "background": "#f0f0f0",
   "projection": {"type": "equalEarth"},
   "layer": [
@@ -24,10 +25,7 @@
         "size": {
           "field": "Count",
           "type": "ordinal",
-          "scale": {
-            "type": "threshold",
-            "domain": [2, 4, 6], 
-            "range": [100, 500, 2000] }
+          "scale": {"domain": [1,2,3,4,5,6,7]}
         },
         "color": {
           "field": "Continent",

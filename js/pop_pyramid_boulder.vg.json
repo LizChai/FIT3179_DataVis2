@@ -69,7 +69,8 @@
         },
         "legend": {
           "labelFont": "Oxygen",
-          "titleFont": "Oxygen"
+          "titleFont": "Oxygen",
+          "orient": "bottom", "layout": {"bottom": {"anchor": "middle"}}
         },
         "header": {
           "labelFont": "Oxygen",

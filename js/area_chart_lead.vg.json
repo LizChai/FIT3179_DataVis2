@@ -1,30 +1,77 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Number of Athletes",
-  "width": "container",
   "background": "#f0f0f0",
   "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/athletes_country_lead.csv"},
-  "mark": "area",
-  "encoding": {
-    "x": {
-      "timeUnit": "year", "field": "Year",
-      "axis": {"format": "%Y", "title": "Year"}
-    },
-    "y": {
-      "aggregate": "sum", "field": "Count", "sort":"ascending", "axis": {"title": "Number of Athletes"}
-    },
-    "color": {
-      "field": "Continent",
-      "type": "nominal",
-      "scale": { "domain": [ "North America", "South America", "Europe", "Australia", "Asia" ], "range": [ "#e4710e", "#dfb52b", "#4d9159", "#1a6381", "#6b67a7"] }
-    },
-    "order":{"aggregate":"sum", "field":"Count", "sort": "descending"},
-    "tooltip": [
-      {"field": "Continent", "type": "nominal"},
-      {"aggregate": "sum", "field": "Count", "type": "quantitative", "title": "Count"},
-      {"field": "Year", "type": "temporal", "format": "%Y"}
-    ]
-  },
+  "vconcat":[{
+    "width": "container",
+    "height": 200,
+    "mark": "area",
+    "params": [{
+      "name": "click",
+      "select": {
+        "type": "point",
+        "fields": ["Continent"]
+      },
+      "bind": "legend"
+    }],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y", "title": "Year", "tickCount": "year"},
+        "scale": {"domain":{"param": "brush"}}
+      },
+      "y": {
+        "aggregate": "sum", "field": "Count", "sort":"ascending", "axis": {"title": "Number of Athletes"}
+      },
+      "color": {
+        "condition": {
+          "param": "click",
+          "field":"Continent",
+          "type":"nominal",
+          "scale": { "domain": [ "North America", "South America", "Europe", "Australia", "Asia" ], "range": [ "#e4710e", "#dfb52b", "#4d9159", "#1a6381", "#6b67a7"] }
+        },
+        "value": "grey"
+      },
+      "opacity": {
+        "condition": {
+          "param": "click",
+          "value": 1
+        },
+        "value": 0.1
+      },
+      "order":{"aggregate":"sum", "field":"Count", "sort": "descending"},
+      "tooltip": [
+        {"field": "Continent", "type": "nominal"},
+        {"aggregate": "sum", "field": "Count", "type": "quantitative", "title": "Count"},
+        {"field": "Year", "type": "temporal", "format": "%Y"}
+      ]
+    }
+  },{
+    "width": "container",
+    "height": 60,
+    "mark": "area",
+    "params": [{
+      "name": "brush",
+      "select": {"type": "interval", "encodings": ["x"]}
+    }],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y", "title": "Year", "tickCount": "year"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "Count", "sort":"ascending", "axis": {"title": "# Athletes"}
+      },
+      "color": {
+        "field": "Continent",
+        "type": "nominal",
+        "scale": { "domain": [ "North America", "South America", "Europe", "Australia", "Asia" ], "range": [ "#e4710e", "#dfb52b", "#4d9159", "#1a6381", "#6b67a7"] }
+      },
+      "order":{"aggregate":"sum", "field":"Count", "sort": "descending"}
+    }
+  }],
+  
   "config": {
     "view": {
       "stroke": null

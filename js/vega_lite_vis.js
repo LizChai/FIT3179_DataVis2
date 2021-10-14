@@ -1,9 +1,4 @@
-var discipline = "lead";
-
-function choice(chosen) {
-    document.getElementById("selected").innerHTML = "Displaying " + chosen + " data";
-    discipline = chosen;
-}
+var discipline = "boulder";
 
 // Pie Chart
 var pie_chart_lead = "js/pie_lead.vg.json";
@@ -35,7 +30,7 @@ var stacked_chart_lead = "js/stacked_chart_lead.vg.json";
 var stacked_chart_boulder = "js/stacked_chart_boulder.vg.json";
 var stacked_chart_speed = "js/stacked_chart_speed.vg.json";
 
-if (discipline == "lead"){
+if (discipline == "boulder"){
     vegaEmbed('#pie_chart', pie_chart_lead, {"actions": false}).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
@@ -56,42 +51,72 @@ if (discipline == "lead"){
         }).catch(console.error);
 
 }
-else if (discipline == "boulder") {
 
-    vegaEmbed('#pie_chart', pie_chart_boulder, {"actions": false}).then(function(result) {
-        }).catch(console.error);
+function choice(chosen) {
+    document.getElementById("selected").innerHTML = "Displaying " + chosen[0].toUpperCase() + chosen.substring(1) + " Data";
+    discipline = chosen;
 
-    vegaEmbed('#symbol_map', symbol_map_boulder, {"actions": false}).then(function(result) {
-        }).catch(console.error);
-
-    vegaEmbed('#area_chart', area_chart_boulder, {"actions": false}).then(function(result) {
+    if (discipline == "lead"){
+        vegaEmbed('#pie_chart', pie_chart_lead, {"actions": false}).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
+    
+        vegaEmbed('#symbol_map', symbol_map_lead, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#area_chart', area_chart_lead, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#pop_pyramid', pop_pyramid_lead, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#line_graph', line_chart_lead, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+        
+        vegaEmbed('#stacked_chart', stacked_chart_lead, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+    }
+    else if (discipline == "boulder") {
+    
+        vegaEmbed('#pie_chart', pie_chart_boulder, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#symbol_map', symbol_map_boulder, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#area_chart', area_chart_boulder, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+        
+        vegaEmbed('#pop_pyramid', pop_pyramid_boulder, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#line_graph', line_chart_boulder, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+        
+        vegaEmbed('#stacked_chart', stacked_chart_boulder, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    }
+    else {
+        vegaEmbed('#pie_chart', pie_chart_speed, {"actions": false}).then(function(result) {
         }).catch(console.error);
     
-    vegaEmbed('#pop_pyramid', pop_pyramid_boulder, {"actions": false}).then(function(result) {
-        }).catch(console.error);
-
-    vegaEmbed('#line_graph', line_chart_boulder, {"actions": false}).then(function(result) {
-        }).catch(console.error);
+        vegaEmbed('#symbol_map', symbol_map_speed, {"actions": false}).then(function(result) {
+            }).catch(console.error);
     
-    vegaEmbed('#stacked_chart', stacked_chart_boulder, {"actions": false}).then(function(result) {
-        }).catch(console.error);
+        vegaEmbed('#area_chart', area_chart_speed, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#pop_pyramid', pop_pyramid_speed, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    
+        vegaEmbed('#line_graph', line_chart_speed, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+        
+        vegaEmbed('#stacked_chart', stacked_chart_speed, {"actions": false}).then(function(result) {
+            }).catch(console.error);
+    }
+    
 }
-else {
-    vegaEmbed('#pie_chart', pie_chart_speed, {"actions": false}).then(function(result) {
-    }).catch(console.error);
 
-    vegaEmbed('#symbol_map', symbol_map_speed, {"actions": false}).then(function(result) {
-        }).catch(console.error);
 
-    vegaEmbed('#area_chart', area_chart_speed, {"actions": false}).then(function(result) {
-        }).catch(console.error);
-
-    vegaEmbed('#pop_pyramid', pop_pyramid_speed, {"actions": false}).then(function(result) {
-        }).catch(console.error);
-
-    vegaEmbed('#line_graph', line_chart_speed, {"actions": false}).then(function(result) {
-        }).catch(console.error);
-    
-    vegaEmbed('#stacked_chart', stacked_chart_speed, {"actions": false}).then(function(result) {
-        }).catch(console.error);
-}
