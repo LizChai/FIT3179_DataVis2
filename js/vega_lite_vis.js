@@ -31,25 +31,24 @@ var stacked_chart_boulder = "js/stacked_chart_boulder.vg.json";
 var stacked_chart_speed = "js/stacked_chart_speed.vg.json";
 
 if (discipline == "boulder"){
-    vegaEmbed('#pie_chart', pie_chart_lead, {"actions": false}).then(function(result) {
+    vegaEmbed('#pie_chart', pie_chart_boulder, {"actions": false}).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
-    vegaEmbed('#symbol_map', symbol_map_lead, {"actions": false}).then(function(result) {
+    vegaEmbed('#symbol_map', symbol_map_boulder, {"actions": false}).then(function(result) {
         }).catch(console.error);
 
-    vegaEmbed('#area_chart', area_chart_lead, {"actions": false}).then(function(result) {
+    vegaEmbed('#area_chart', area_chart_boulder, {"actions": false}).then(function(result) {
         }).catch(console.error);
 
-    vegaEmbed('#pop_pyramid', pop_pyramid_lead, {"actions": false}).then(function(result) {
+    vegaEmbed('#pop_pyramid', pop_pyramid_boulder, {"actions": false}).then(function(result) {
         }).catch(console.error);
 
-    vegaEmbed('#line_graph', line_chart_lead, {"actions": false}).then(function(result) {
+    vegaEmbed('#line_graph', line_chart_boulder, {"actions": false}).then(function(result) {
         }).catch(console.error);
     
-    vegaEmbed('#stacked_chart', stacked_chart_lead, {"actions": false}).then(function(result) {
+    vegaEmbed('#stacked_chart', stacked_chart_boulder, {"actions": false}).then(function(result) {
         }).catch(console.error);
-
 }
 
 function choice(chosen) {

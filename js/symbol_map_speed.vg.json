@@ -18,30 +18,72 @@
       "data": {
         "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/host_country_speed.csv"
       },
-      "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
         "longitude": {"field": "Longitude", "type": "quantitative"},
-        "latitude": {"field": "Latitude", "type": "quantitative"},
-        "size": {
-          "field": "Count",
-          "type": "ordinal",
-          "scale": {"domain": [1,2,3,4,5,6,7]}
+        "latitude": {"field": "Latitude", "type": "quantitative"}
+      },
+      "layer":
+      [
+        {
+          "mark": {"type": "circle", "tooltip": {"content": "data"}},
+          "encoding" : {
+            "size": {
+              "field": "Count",
+              "type": "ordinal",
+              "scale": {"domain": [1,2,3,4,5,6,7]}
+            },
+            "color": {
+              "field": "Continent",
+              "type": "nominal",
+              "scale": { "domain": [ "North America", "South America", "Europe", "Australia", "Asia" ], "range": [ "#e4710e", "#dfb52b", "#4d9159", "#1a6381", "#6b67a7"] },
+              "sort":"ascending"
+            },
+            "opacity": { "value": 0.6 },
+            "stroke": {"value": "black"},
+            "tooltip": [
+              {"field": "Location","type": "nominal"},
+              {"field": "Country","type": "nominal"},
+              {"field": "Continent","type": "nominal"},
+              {"field": "Count", "type": "quantitative"}
+            ]
+          }
         },
-        "color": {
-          "field": "Continent",
-          "type": "nominal",
-          "scale": { "domain": [ "North America", "South America", "Europe", "Australia", "Asia" ], "range": [ "#e4710e", "#dfb52b", "#4d9159", "#1a6381", "#6b67a7"] },
-          "sort":"ascending"
+        {
+          "mark": { "type": "text", "align": "right", "baseline": "middle", "dx": -12, "fontSize": 10 }, 
+          "encoding": {
+            "text": {"field": "Location", 
+              "type": "nominal"}, 
+            "color": {"value": "black"}, 
+            "opacity": { "condition": { "test": "datum['Location'] == 'Wujiang' || datum['Location'] == 'Chongqing' || datum['Location'] == 'Villars' ", "value": 1 }, "value": 0 }
+            }
         },
-        "opacity": { "value": 0.6 },
-        "stroke": {"value": "black"},
-        "tooltip": [
-          {"field": "Location","type": "nominal"},
-          {"field": "Country","type": "nominal"},
-          {"field": "Continent","type": "nominal"},
-          {"field": "Count", "type": "quantitative"}
-        ]
-      }
+        {
+          "mark": { "type": "text", "align": "left", "baseline": "middle", "dx": 12, "fontSize": 10 }, 
+          "encoding": {
+            "text": {"field": "Location", 
+              "type": "nominal"}, 
+            "color": {"value": "black"}, 
+            "opacity": { "condition": { "test": "datum['Location'] == 'Xiamen'", "value": 1 }, "value": 0 }
+            }
+        },
+        {
+          "mark": {"type": "circle", "tooltip": {"content": "data"}},
+          "encoding" : {
+            "size": {
+              "field": "Count",
+              "type": "ordinal",
+              "scale": {"domain": [1,2,3,4,5,6,7]}
+            },
+            "opacity": { "value": 0 },
+            "tooltip": [
+              {"field": "Location","type": "nominal"},
+              {"field": "Country","type": "nominal"},
+              {"field": "Continent","type": "nominal"},
+              {"field": "Count", "type": "quantitative"}
+            ]
+          }
+        }
+      ]
     }
   ],
   "config": {
