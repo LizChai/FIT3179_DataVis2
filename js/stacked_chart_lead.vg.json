@@ -59,7 +59,7 @@
       "mark": {
         "type": "text",
         "align": "right",
-        "dx": -4,
+        "dx": 12,
         "aria":false
       },
       "encoding": {

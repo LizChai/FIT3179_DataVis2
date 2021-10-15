@@ -4,8 +4,8 @@
   "background": "#f0f0f0",
   "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/athletes_country_speed.csv"},
   "vconcat":[{
-    "width": "container",
-    "height": 200,
+    "width": 320,
+    "height": 250,
     "mark": "area",
     "params": [{
       "name": "click",
@@ -48,7 +48,7 @@
       ]
     }
   },{
-    "width": "container",
+    "width": 320,
     "height": 60,
     "mark": "area",
     "params": [{
@@ -82,7 +82,8 @@
     },
     "legend": {
       "labelFont": "Oxygen",
-      "titleFont": "Oxygen"
+      "titleFont": "Oxygen",
+      "orient": "bottom", "layout": {"bottom": {"anchor": "middle"}}
     },
     "header": {
       "labelFont": "Oxygen",

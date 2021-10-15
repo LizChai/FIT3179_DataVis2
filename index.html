@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
 
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
 
     <!-- Javescript file -->
@@ -41,14 +40,6 @@
             </p>
         </div>
     </div>
-    
-
-    <div style="display:flex; justify-content: space-evenly; align-items: center;" >
-        <button onclick="choice('lead')" class="button" onClick="refreshPage()">Lead</button>
-        <button onclick="choice('boulder')" class="button" onClick="refreshPage()">Boulder</button>
-        <button onclick="choice('speed')" class="button" onClick="refreshPage()">Speed</button>
-    </div>
-    <p id="selected" style="text-align: center;">Displaying Boulder Data</p>
     </div> 
 
     <p></p>
@@ -58,13 +49,18 @@
             <div class="pure-u-1-1">
                 <h3>Locations</h3>
                 <div id="symbol_map"></div>
-                <div><p class='pad1'>The map visualisation displays the location for each <text style="font-weight:bold">World Cup</text> held of the discipline. The colour of the marker shows the continent and the size of the marker depicts the number of times it has held a <text style="font-weight:bold">World Cup</text>.
+            </div>
+            <div class="pure-u-1-2">
+                <p class='pad1'>The map visualisation displays the location for each <text style="font-weight:bold">World Cup</text> held of the discipline. The colour of the marker shows the continent and the size of the marker depicts the number of times it has held a <text style="font-weight:bold">World Cup</text>.
                 </br></br>Most of the <text style="font-weight:bold">World Cups</text> competitions were held in <text style="color:#4d9159; font-weight:bold;">Europe</text> and <text style="color:#6c6b81; font-weight:bold">Asia</text> from 2015-2021. The continent of <text style="color:#4d9159; font-weight:bold">Europe</text> has the highest number of countries hosting competitions. 
-                In <text style="color:#e4710e; font-weight:bold">North America, Vail (USA)</text> is a popular destination for competition location for the <text style="font-weight:bold">Boulder</text> <text style="font-weight:bold">World Cup</text>, hosting 5 competitions, on par with <text style="color:#4d9159; font-weight:bold;">Meiringen (Switzerland)</text>, <text style="color:#4d9159; font-weight:bold;">Munich (Germany)</text> and <text style="color:#6c6b81; font-weight:bold">Chongqing (China)</text>.
-                </br></br><text style="color:#6c6b81; font-weight:bold">China</text> has held the most <text style="font-weight:bold">World Cups</text> in total, in its various provinces: <text style="color:#6c6b81; font-weight:bold">Nanjing, Chongqing, Wujiang, Xiamen, Tai'an</text> and <text style="color:#6c6b81; font-weight:bold"></text>Haiyang</text>. 
-                <text style="color:#4d9159; font-weight:bold;">Briancon, France</text> has hosted the most <text style="font-weight:bold">World Cups</text> (7) for a single competition location, hosting a <text style="font-weight:bold">Cup</text> each year between 2015 and 2021 for the <text style="font-weight:bold">Lead</text> discipline.
+                </br></br><text style="color:#6c6b81; font-weight:bold">China</text> has held the most <text style="font-weight:bold">World Cups</text> in total, in its various provinces: <text style="color:#6c6b81; font-weight:bold">Nanjing, Chongqing, Wujiang, Xiamen, Tai'an</text> and <text style="color:#6c6b81; font-weight:bold">Haiyang</text>.
+                </p>
+            </div>
+            <div class="pure-u-1-2">
+                <p class='pad1'><text style="color:#4d9159; font-weight:bold;">Briancon, France (FRA)</text> has hosted the most <text style="font-weight:bold">World Cups</text> (7) for a single competition location, hosting a <text style="font-weight:bold">Cup</text> each year between 2015 and 2021 for the <text style="font-weight:bold">Lead</text> discipline.
+                </br></br>In <text style="color:#e4710e; font-weight:bold">North America, Vail (USA)</text> is a popular destination for competition location for the <text style="font-weight:bold">Boulder</text> <text style="font-weight:bold">World Cup</text>, hosting 5 competitions, on par with <text style="color:#4d9159; font-weight:bold;">Meiringen (SUI, Switzerland)</text>, <text style="color:#4d9159; font-weight:bold;">Munich (GER, Germany)</text> and <text style="color:#6c6b81; font-weight:bold">Chongqing (CHN, China)</text>.
                 </br></br>But <text style="font-weight:bold">who</text> actually competes at these wonderful <text style="font-weight:bold">World Cup</text> locations and where are they from?...
-                </p></div>
+                </p>
             </div>
         </div>
     </div>
@@ -75,17 +71,23 @@
         <div class="pure-g">
             <div class="pure-u-1-1">
                 <h3>Competitors</h3>
-                <div><p class='pad1'>The pie chart on the left shows the gender breakdown of the discipline. The gender split between <text style="color:#b84e4e; font-weight:bold;">Female</text> and <text style="color:#4477AA; font-weight:bold;">Male</text> competitors is mostly even, for all the disciplines. 
-                </br></br>The area chart on the right depicts the total number of athletes competing over the years from each continent. Each colour represents a different continent.
+            </div>
+            <div class="pure-u-1-2">
+                <div id="pie_chart"></div>
+            </div>
+            <div class="pure-u-1-2">
+                <div><p class='pad1'>The pie chart shows the gender breakdown of the discipline. The gender split between <text style="color:#b84e4e; font-weight:bold;">Female</text> and <text style="color:#4477AA; font-weight:bold;">Male</text> competitors is mostly even, for all the disciplines. 
+                </p></div>
+            </div>
+
+            <div class="pure-u-1-2">
+                <div><p class='pad1'>The area chart on the right depicts the total number of athletes competing over the years from each continent. Each colour represents a different continent.
                 </br></br>The sport of climbing has gained popularity over the past few years, with many new indoor climbing facilities popping up everywhere. 
-                However at the elite level, only approximately 150 atheletes compete. The total number of competitors spiked in 2016 (<text style="font-weight:bold">Lead</text> & <text style="font-weight:bold">Speed</text>) and 2018 (<text style="font-weight:bold">Boulder</text>), due to a sudden increase of athletes from <text style="color:#4d9159; font-weight:bold;">Europe</text> and <text style="color:#6c6b81; font-weight:bold">Asia</text>. 
+                However at the elite level, only approximately 150 atheletes compete.  
+                The total number of competitors spiked in 2016 (<text style="font-weight:bold">Lead</text> & <text style="font-weight:bold">Speed</text>) and 2018 (<text style="font-weight:bold">Boulder</text>), due to a sudden increase of athletes from <text style="color:#4d9159; font-weight:bold;">Europe</text> and <text style="color:#6c6b81; font-weight:bold">Asia</text>.
                 The total number of athletes involved in competitions halted in 2020 during the Covid-19 pandemic, and decreased or stagnated in 2021, due to athletes not being able to travel overseas to participate in competitions.
                 </br></br>Most of the athletes originate from <text style="color:#4d9159; font-weight:bold;">Europe</text> and <text style="color:#6c6b81; font-weight:bold">Asia</text>, and this is related to the locations of the competitions, where <text style="color:#4d9159; font-weight:bold;">Europe</text> and <text style="color:#6c6b81; font-weight:bold">Asia</text> hold most of the <text style="font-weight:bold">World Cups</text>. 
-            </p></div>
-            </div>
-            
-            <div class="pure-u-1-3">
-                <div id="pie_chart"></div>
+                </p></div>
             </div>
             <div class="pure-u-1-2">
                 <div id="area_chart"></div>
@@ -135,7 +137,7 @@
             The stacked bar chart on the left displays the total number of medals the national team has won between 2015-2021, broken down into <text style="color:#DAA520; font-weight:bold;">Gold</text>, <text style="color:#A9A9A9; font-weight:bold;">Silver</text> and <text style="color:#cd7f32; font-weight:bold;">Bronze</text> medal tallies.
             </br></br>The medal total and tally have a very interesting distribution. For the case of <text style="font-weight:bold">Boulder</text> and <text style="font-weight:bold">Speed</text> disciplines, only one national team dominates the medal tally, and the remaining national teams have a few medals each.
             For the <text style="font-weight:bold">Lead</text> discipline, the medals are almost evenly spread between the teams. 
-            </br></br>The national teams with the most medals for each discipline are: <text style="color:#4d9159; font-weight:bold;">Slovenia</text> (Lead), <text style="color:#6b67a7; font-weight:bold;">Japan</text> (<text style="font-weight:bold">Boulder</text>) and <text style="color:#4d9159; font-weight:bold;">Russia</text> (Speed). 
+            </br></br>The national teams with the most medals for each discipline are: <text style="color:#4d9159; font-weight:bold;">Slovenia (SLO)</text> (Lead), <text style="color:#6b67a7; font-weight:bold;">Japan (JPN)</text> (<text style="font-weight:bold">Boulder</text>) and <text style="color:#4d9159; font-weight:bold;">Russia (RUS)</text> (<text style="font-weight:bold">Speed</text>). 
             For <text style="color:#4d9159; font-weight:bold;">Slovenia</text> and <text style="color:#6b67a7; font-weight:bold;">Japan</text>, most of their medals consist of <text style="color:#DAA520; font-weight:bold;">Gold</text> and <text style="color:#A9A9A9; font-weight:bold;">Silver</text>. 
             This is no surprise as <text style="font-weight:bold">Janja Garnbret (top Lead athlete)</text> is from <text style="color:#4d9159; font-weight:bold;">Slovenia</text> and <text style="font-weight:bold">Akiyo Noguchi (top Boulder athlete)</text> is from <text style="color:#6b67a7; font-weight:bold;">Japan</text>.
             However for <text style="color:#4d9159; font-weight:bold;">Russia</text> most of their medals are from <text style="color:#cd7f32; font-weight:bold;">Bronze</text> places. 
@@ -166,5 +168,15 @@
         Data sourced from <a href="https://www.ifsc-climbing.org/">International Federation of Sport Climbing</a>.</p>
 
 </body>
+<main>
+    <div id="navbar">
+        <div style="display:flex; justify-content: space-evenly; align-items: center;" >
+            <button onclick="choice('lead')" class="button" onClick="refreshPage()">Lead</button>
+            <button onclick="choice('boulder')" class="button" onClick="refreshPage()">Boulder</button>
+            <button onclick="choice('speed')" class="button" onClick="refreshPage()">Speed</button>
+        </div>
+        <p id="selected" style="text-align: center;">Displaying Boulder Data</p>
+    </div>
+</main>
 
 </html>

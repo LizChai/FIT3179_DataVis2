@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "World Cup Location",
   "autosize":"fit-x",
-  "width":"container",
+  "width":675,
   "height":300,
   "background": "#f0f0f0",
   "projection": {"type": "equalEarth"},
