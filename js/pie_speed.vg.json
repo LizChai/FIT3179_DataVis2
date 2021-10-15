@@ -3,6 +3,7 @@
     "title": "Gender Split",
     "description": "Pie chart",
     "width":"container",
+    "height":75,
     "background": "#f0f0f0",
     "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/pie_speed.csv"},
     "mark": "arc",

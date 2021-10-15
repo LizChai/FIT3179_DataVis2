@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": { "url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/athlete_points_boulder.csv"},
-    "width":"container",
+    "width":200,
     "background": "#f0f0f0",
     "params" : [{
         "name": "gender_selection",
@@ -70,7 +70,7 @@
         "legend": {
           "labelFont": "Oxygen",
           "titleFont": "Oxygen",
-          "orient": "bottom", "layout": {"bottom": {"anchor": "middle"}}
+          "orient": "bottom", "layout": {"bottom": {"anchor": "left"}}
         },
         "header": {
           "labelFont": "Oxygen",
