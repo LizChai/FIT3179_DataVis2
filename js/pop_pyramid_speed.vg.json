@@ -26,7 +26,7 @@
       {"filter": "datum.rank > 20"},
       {"filter": "gender_selection == null || datum.Gender == gender_selection"}
     ],
-  "title": "Athlete Rankings",
+  "title": "Speed Athlete Rankings",
   "encoding": {
       "x": {
           "field": "Points",

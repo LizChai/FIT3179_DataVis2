@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "World Cup Location",
+  "title": "Speed World Cup Location",
   "autosize":"fit-x",
   "width":700,
   "height":300,

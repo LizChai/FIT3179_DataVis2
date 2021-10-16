@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Gender Split",
+    "title": "Lead Gender Split",
     "description": "Pie chart",
     "width":"container",
     "height":75,

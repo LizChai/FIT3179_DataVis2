@@ -26,6 +26,23 @@
 </head>
 
 <body>
+    <div id='nav'>Select a discipline to display:
+        <p id='break'></p>
+        <div style="display:flex; justify-content: space-evenly; align-items: center;" >
+            <button onclick="choice('lead')" class="button" onClick="refreshPage()">Lead</button>
+        </div>
+        <p id='break'></p>
+        <div style="display:flex; justify-content: space-evenly; align-items: center;" >
+            <button onclick="choice('boulder')" class="button" onClick="refreshPage()">Boulder</button>
+        </div>
+        <p id='break'></p>
+        <div style="display:flex; justify-content: space-evenly; align-items: center;" >
+            <button onclick="choice('speed')" class="button" onClick="refreshPage()">Speed</button>
+        </div>
+        <p id='break'></p>
+        <text id="selected" id='break'>Displaying Boulder Data</text>
+    </div>
+
     <p></br></p>
     <div class="page">
     <div class="section">
@@ -36,13 +53,6 @@
             <p class='pad1' style="font-size: 150%">The <text style="font-weight:bold">IFSC Climbing World Cup</text> is a series of climbing competitions held annually and organized by the <text style="font-weight:bold">International Federation of Sport Climbing (IFSC)</text>. 
             The athletes compete in three disciplines: <text style="font-weight:bold">Lead</text>, <text style="font-weight:bold">Boulder</text> and <text style="font-weight:bold">Speed</text>. The number of competitions and locations vary from year to year.
             </br></br>The following visualisation presents data from the official <text style="font-weight:bold">IFSC</text> website, detailing the <text style="font-weight:bold">location of competitions, overview of competitors and rankings of the althetes and their country's team.</text> 
-            </br></br>Select a discipline to display:
-            <div style="display:flex; justify-content: space-evenly; align-items: center;" >
-                <button onclick="choice('lead')" class="button" onClick="refreshPage()">Lead</button>
-                <button onclick="choice('boulder')" class="button" onClick="refreshPage()">Boulder</button>
-                <button onclick="choice('speed')" class="button" onClick="refreshPage()">Speed</button>
-            </div>
-            <p id="selected" style="text-align: center;">Displaying Boulder Data</p>
             </p>
         </div>
     </div>

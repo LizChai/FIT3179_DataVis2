@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Total Number of Athletes",
+  "title": "Total Number of Boulder Athletes",
   "background": "#f0f0f0",
   "data": {"url": "https://raw.githubusercontent.com/LizChai/FIT3179_DataVis2/main/data/athletes_country_boulder.csv"},
   "vconcat":[{
@@ -98,7 +98,7 @@
       "fontSize": 16,
       "fontWeight": 600,
       "align": "center",
-      "dx":100
+      "dx":80
     }
   }
 }
