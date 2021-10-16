@@ -43,11 +43,7 @@ body {
     transform: translateY(2px);
 }
 
-.sticky {
-    top: 600;
-  }
-
-#break{
+#break {
     padding: 0px;
     font-size: 50%;
 }
